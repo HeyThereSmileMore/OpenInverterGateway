@@ -36,12 +36,20 @@ To find which properties are available checkout name of the registers in relevan
 
 E.g. for protocol 3.05 in [Growatt305.cpp](/SRC/ShineWiFi-ModBus/Growatt305.cpp)
 
+
+> [!NOTE]  
+> Check the "Supported Inverters" section in the README file if you don't know which protocol version your inverter uses.
+
+
 Here are some examples:
 
 - [Version for protocol 1.24](#version-for-protocol-124)
 - [Version for protocol 3.05](#version-for-protocol-305)
 
 ### Version for protocol 1.24
+
+> [!TIP]
+> To get a full mqtt config of all sensors, head to this post: [networkluk](https://community.simon42.com/t/growatt-sph-10000-openinvertergateway/16123)
 
 ```yaml
 mqtt:
